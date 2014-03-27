@@ -20,7 +20,7 @@
   "author": "Pavel Vlasov <freakycue@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "natural": "~0.1.25",
+    "natural": "git://github.com/almostagile/natural.git#0ab2a12bcc6474afd775ca46df71b4aa87d0fdd8",
     "underscore": "~1.5.2"
   },
   "devDependencies": {
