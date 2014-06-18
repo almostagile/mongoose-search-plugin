@@ -38,7 +38,7 @@ module.exports = function(schema, options) {
 			outFields = {_id: 1},
 			findOptions = _(options).pick('sort');
 
-		conditions[keywordsPath] = {$in: tokens};
+		conditions[keywordsPath] = {$all: tokens};
 		outFields[keywordsPath] = 1;
 
 		mongoose.Model.find.call(this, conditions, outFields, findOptions,
